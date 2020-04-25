@@ -1,0 +1,70 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 5px;
+    padding: 10px 350px 10px 250px;
+    justify-content: center;
+}
+
+.single-element {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.single-element:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.element-image {
+    object-fit: cover;
+    width: 100%;
+}
+
+.element-info {
+    display: block;
+}
+
+.element-info > div {
+    padding: 3px;
+    max-height: 55px;
+    overflow: hidden;
+    max-width: 670px;
+    max-height: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.element-subinfo {
+    font-size: 20px;
+    font-style: revert;
+    font-weight: bold;
+}
+
+.banner {
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+.banner:hover {
+    cursor:pointer;
+}
+
+.extra-banner-container {
+    background-color: lightgrey;
+    width: 400px;
+    padding: 10px;
+}
+
+.extra-banner-text {
+    font-size: 25px;
+    text-align: center;
+}
+
+.banner-images-dummy {
+    height: 100px;
+    width: inherit;
+}

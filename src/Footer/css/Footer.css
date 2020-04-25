@@ -1,0 +1,34 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.top-scroll-btn {
+    bottom: 30px;
+    right: 60px;
+    position: fixed;
+    z-index: 99;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.top-scroll-btn:hover{
+    cursor: pointer;
+}

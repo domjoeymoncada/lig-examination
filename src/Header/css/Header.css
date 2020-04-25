@@ -1,0 +1,13 @@
+.top-navbar {
+    padding: 20px;
+}
+
+.top-navbar__logo {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.top-navbar__logo:hover {
+    cursor:pointer;
+}
