@@ -4,6 +4,7 @@
     grid-gap: 5px;
     padding: 10px 350px 10px 250px;
     justify-content: center;
+    font-family: 'Yu Gothic';
 }
 
 .single-element {
@@ -29,17 +30,15 @@
 
 .element-info > div {
     padding: 3px;
-    max-height: 55px;
     overflow: hidden;
     max-width: 670px;
-    max-height: 120px;
-    overflow: hidden;
+    min-height: 20px;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
 .element-subinfo {
-    font-size: 20px;
+    font-size: 20px !important;
     font-style: revert;
     font-weight: bold;
 }

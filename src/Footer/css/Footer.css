@@ -5,6 +5,7 @@
     background-color: black;
     padding: 5px;
     color: white;
+    font-family: 'Yu Gothic';
 }
 
 ul {
@@ -27,6 +28,7 @@ li {
     border-radius: 5px;
     color: white;
     border: none;
+    font-family: 'Yu Gothic';
 }
 
 .top-scroll-btn:hover{

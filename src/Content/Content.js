@@ -118,9 +118,9 @@ class Content extends React.Component {
                             <div className="single-element" onClick={() => this.viewElement(elem._id)} key={key}>
                                 <img className="element-image" src={elem.image} alt="Some random element" />
                                 <div className="element-info">
-                                    <div>{elem.title}</div>
+                                    <div style={{fontSize: '10px'}}>{elem.title}</div>
                                     <div className="element-subinfo">{elem.subtitle}</div>
-                                    <div>{elem.description}</div>
+                                    <div style={{fontSize: '15px'}}>{elem.description}</div>
                                 </div>
                             </div>
                         )

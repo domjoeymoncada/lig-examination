@@ -1,6 +1,7 @@
 .slider {
     position: relative;
-    margin: auto;
+    /*margin: auto;*/
+    margin: 20px;
 }
 
 .slider > img {
@@ -25,8 +26,8 @@
 }
 
 .left {
-    left: 0;
+    left: 40px;
 }
 .right {
-    right: 0;
+    right: 40px;
 }
